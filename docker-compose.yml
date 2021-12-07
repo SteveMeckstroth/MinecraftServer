@@ -10,7 +10,7 @@ services:
           memory: 3G
         reservations:
           cpus: '1.0'
-          memory: 2G
+          memory: 250M
     ports:
       - 25565:25565
     environment:
